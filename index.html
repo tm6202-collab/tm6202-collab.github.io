@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ソテミン | Portfolio</title>
+  <meta name="description" content="バックエンドエンジニア志望 OOO のポートフォリオ">
+
+  <!-- フォント: 本文=Noto Sans JP(ゴシック) / ABOUT=Playfair Display(イタリック) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== 固定ナビ（右上） ===== -->
+  <header class="nav">
+    <nav>
+      <a href="#about"   data-nav="about">ABOUT</a>
+      <a href="#skills"  data-nav="skills">SKILL</a>
+      <a href="#project" data-nav="project">PROJECT</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- =====================================================
+         PAGE 1 : ABOUT ME
+         ※ 個人情報(OOO / TEST / XX大学 など)は自分で書き換えてください
+         ===================================================== -->
+    <section id="about" class="page about">
+      <aside class="about__profile">
+        <div class="avatar">
+          <!-- 写真に差し替え: <img src="img/profile.jpg" alt="OOO"> -->
+          <span>PHOTO<br>3 × 4</span>
+        </div>
+        <h2 class="profile__name">ソテミン</h2>
+        <p class="profile__tagline">「デザインの視点」と、正確に動く「開発の視点」の<br>
+          両方を持っていることが私の強みです。</p>
+        <a class="profile__mail" href="mailto:seotm717@gmail.com">seotm717@gmail.com</a>
+      </aside>
+
+      <div class="about__body">
+        <h1 class="title"><span class="title__script">About</span> <span class="title__gothic">ME</span></h1>
+
+        <div class="timeline-group">
+          <h3 class="group-label">学歴 <small>EDUCATION</small></h3>
+          <ol class="timeline">
+            <li>
+              <span class="date">2016.03 ~ 2022.02</span><span class="org">蔚山科学大学 | 卒業</span>
+              <p class="desc">デジタルコンテンツデザイン学科専攻</p>
+            </li>
+            <li>
+              <span class="date">2022.05 ~ 2022.11</span><span class="org">グリーンコンピュータアカデミー | 修了</span>
+              <p class="desc">ウェブパブリッシャーコース | Photoshop、Illustrator、UI/UX、HTML、CSS、JavaScriptなど</p>
+            </li>
+            <li>
+              <span class="date">2024.04 ~ 2025.03</span><span class="org">ISIキャリア外語アカデミー渋谷校 | 卒業（日本）</span>
+              <p class="desc">留学 | 日本語、ビジネス日本語、チーム活動</p>
+            </li>
+            <li>
+              <span class="date">2026.03 ~ 2026.11</span><span class="org">Data Science Academy 釜山 | 修了予定</span>
+              <p class="desc">Smart cloud ITマスターAX/DX （釜山2026-1）| Java、MySQL、HTML、CSS、JavaScript、Spring Boot、AI活用など</p>
+            </li>
+          </ol>
+        </div>
+
+        <div class="timeline-group">
+          <h3 class="group-label">職歴 <small>CAREER</small></h3>
+          <ol class="timeline">
+            <li>
+              <span class="date">2019.06 ~ 2020.06</span><span class="org">宇宙銘板株式会社 | 正社員</span>
+              <p class="desc">産業用銘板及び各種銘板デザイン | CADやCorelDRAWというツールを使用し、設計図に沿って銘板をデザイン</p>
+            </li>
+            <li>
+              <span class="date">2023.06 ~ 2023.09</span><span class="org">プリンタランド（日本）| アルバイト</span>
+              <p class="desc">ストラップ キーホルダー制作 | 顧客様の注文表と図案を確認・ミシンと材料の設定・資材在庫管理</p>
+            </li>
+            <li>
+              <span class="date">2023.09 ~ 2024.02</span><span class="org">豚キホーテ（日本）| アルバイト</span>
+              <p class="desc">韓国料理レストラン | キッチンアシスタントと食器洗い</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         PAGE 2 : SKILLS
+         ===================================================== -->
+    <section id="skills" class="page skills">
+      <h1 class="title">SKILLS</h1>
+
+      <div class="skills__cols">
+        <div class="skills__block">
+        <h3 class="group-label">資格 <small>CERTIFICATES</small></h3>
+        <ul class="certs">
+          <li class="cert-row">
+            <span class="cert-k">言語</span>
+            <div class="cert-v">
+              <p class="cert-name cert-name--main">JLPT N2<span class="cert-badge">N1 受験予定</span></p>
+            </div>
+          </li>
+          <li class="cert-row">
+            <span class="cert-k">PC・OA</span>
+            <div class="cert-v">
+              <p class="cert-name">コンピュータ活用能力 2級</p>
+              <p class="cert-name">ワープロ実技 1級</p>
+              <p class="cert-name">ITQ OA マスター</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+        <div class="skills__block">
+        <h3 class="group-label">使用できる技術 <small>TECH STACK</small></h3>
+        <ul class="certs tech">
+          <li class="cert-row">
+            <span class="cert-k">Backend / DB</span>
+            <ul class="logos">
+          <li><img src="img/skills/java.svg"   alt=""><span>Java</span></li>
+          <li><img src="img/skills/spring.svg" alt=""><span>Spring Boot</span></li>
+          <li><img src="img/skills/mysql.svg"  alt=""><span>MySQL</span></li>
+          <li><img src="img/skills/nodejs.svg" alt=""><span>Node.js</span></li>
+        </ul>
+          </li>
+          <li class="cert-row">
+            <span class="cert-k">Frontend / Design</span>
+            <ul class="logos">
+          <li><img src="img/skills/html5.svg"      alt=""><span>HTML5</span></li>
+          <li><img src="img/skills/css3.svg"       alt=""><span>CSS</span></li>
+          <li><img src="img/skills/javascript.svg" alt=""><span>JavaScript</span></li>
+          <li><img src="img/skills/figma.svg"      alt=""><span>Figma</span></li>
+        </ul>
+          </li>
+          <li class="cert-row">
+            <span class="cert-k">Tools</span>
+            <ul class="logos">
+          <li><img src="img/skills/git.svg"    alt=""><span>Git</span></li>
+          <li><img src="img/skills/github.svg" alt=""><span>GitHub</span></li>
+          <li><img src="img/skills/claude.svg" alt=""><span>Claude AI</span></li>
+        </ul>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         PAGE 3 : PROJECT 概要（ホバー / タップで説明が出る）
+         ===================================================== -->
+    <section id="project" class="page project-intro">
+      <div class="project-intro__visual">
+        <img src="img/stock_mockup.png" alt="IzaCare 在庫一覧画面">
+      </div>
+
+      <div class="project-intro__text">
+        <h1 class="title">PROJECT</h1>
+        <p class="project-name">IzaCare <small>居酒屋向け 店舗管理Webアプリ</small></p>
+        <p class="project-meta">チーム開発 5名 ／ 2026.08 ~ 2026.09</p>
+
+        <ul class="hover-list">
+          <li>
+            <span class="num">01</span>
+            <div class="item">
+              <span class="label">概要</span>
+              <p class="tip">在庫・予約・勤怠など、居酒屋の日常業務を1つのスマホ向けWebアプリにまとめた店舗管理システム</p>
+            </div>
+          </li>
+          <li>
+            <span class="num">02</span>
+            <div class="item">
+              <span class="label">企画きっかけ</span>
+              <p class="tip">チームメンバーのワーキングホリデー中のアルバイトで、シフトや連絡事項の管理が大変だったという実体験から企画</p>
+            </div>
+          </li>
+          <li>
+            <span class="num">03</span>
+            <div class="item">
+              <span class="label">担当範囲</span>
+              <p class="tip">Figmaによる全画面の設計、下部タブのアイコン提案、出退勤機能、お知らせ、日報掲示板を、設計から実装まで担当</p>
+            </div>
+          </li>
+          <li>
+            <span class="num">04</span>
+            <div class="item">
+              <span class="label">使用技術</span>
+              <p class="tip">Java 21 / Spring Boot 3.3 / Spring Data JPA / H2 / Gradle / HTML・CSS・JavaScript（フレームワークなし）/ Figma</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         PAGE : システム構成(アーキテクチャ図)
+         ===================================================== -->
+    <section id="p-system" class="page detail" data-nav="project">
+      <div class="detail__head">
+        <p class="detail__no">01</p>
+        <h2 class="title title--sub">システム構成 <small>SYSTEM</small></h2>
+      </div>
+      <p class="lead">ブラウザからH2データベースまでの全体像です。<br>リクエストは共通処理を通ってControllerに入り、ロジックとRepositoryを経てDBに届きます。</p>
+
+      <img class="system__img" src="img/arch_jp.png" alt="システム構成図">
+
+      <ul class="points system__points">
+        <li><b>共通処理を一か所に集約</b>ログイン確認とエラー処理をすべてのリクエストの入口にまとめ、Controllerごとに書かないようにしています。</li>
+        <li><b>AI連携は差し替え可能</b>画像認識はinterfaceの後ろに置き、キーがなくてもMockで動くようにしました。</li>
+        <li><b>打刻の順序検査はEntityの中に</b>出退勤の順序のルールをAttendanceのmark()に置き、画面を通さない送信でも同じ検査が働きます。</li>
+      </ul>
+    </section>
+
+    <!-- =====================================================
+         PAGE 4 : 画面設計 (Figma)
+         ===================================================== -->
+    <section id="p-design" class="page detail" data-nav="project">
+      <div class="detail__head">
+        <p class="detail__no">02</p>
+        <h2 class="title title--sub">画面設計 <small>FIGMA</small></h2>
+      </div>
+      <p class="lead">実装に入る前に、Figmaで全画面を設計しました。<br>オーナーとスタッフで画面を分け、チーム全員が同じ完成形をイメージして開発できるようにしました。</p>
+
+      <ol class="steps">
+        <li>
+          <p class="steps__k"><span class="dot">1</span>画面遷移図</p>
+          <p class="steps__t">まず「どの画面からどの画面へ行けるか」を整理しました。全画面を6つの機能グループに分け、ホームを起点にした構成にしています。</p>
+          <img class="steps__flow" src="img/flow_jp.png" alt="画面遷移図">
+        </li>
+        <li class="steps__row">
+          <div>
+            <p class="steps__k"><span class="dot">2</span>手書きワイヤー</p>
+            <p class="steps__t">Figmaを開く前に、紙でおおまかな画面を描きました。予約のテーブル選択は「飛行機やKTXの座席選択のように」というメモから、席を図で選ぶ画面に発展しました。</p>
+          </div>
+          <img class="steps__sketch" src="img/wire_sketch.png" alt="手書きワイヤー">
+        </li>
+        <li>
+          <p class="steps__k"><span class="dot">3</span>Figma 完成画面</p>
+        </li>
+      </ol>
+
+      <div class="shots">
+        <figure><img src="img/dash_owner.png" alt=""><figcaption>ホーム（オーナー）</figcaption></figure>
+        <figure><img src="img/attendance.png" alt=""><figcaption>出勤</figcaption></figure>
+        <figure><img src="img/report_list.png" alt=""><figcaption>日報 一覧</figcaption></figure>
+        <figure><img src="img/report_detail.png" alt=""><figcaption>日報 詳細</figcaption></figure>
+      </div>
+
+      <div class="callout">
+        <div class="callout__img">
+          <img src="img/nav_default.png" alt="">
+          <img src="img/nav_selected.png" alt="">
+        </div>
+        <div>
+          <h3 class="group-label">下部タブのアイコン提案</h3>
+          <p>絵文字ではなく、線の太さと大きさをそろえたラインアイコンを提案しました。選択中のタブは背景で強調し、5つのタブを見分けやすくしました。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         PAGE 5 : 出退勤
+         ===================================================== -->
+    <section id="p-attendance" class="page detail" data-nav="project">
+      <div class="detail__head">
+        <p class="detail__no">03</p>
+        <h2 class="title title--sub">出退勤 <small>ATTENDANCE</small></h2>
+      </div>
+      <p class="lead">打刻と同時に「店にいるか」を確認する機能です。<br>位置が取れなくても打刻は止めず、結果を記録するだけにしました。</p>
+
+      <ol class="flow">
+        <li><span class="dot">1</span><b>打刻ボタン</b><span>出勤・退勤を押す</span></li>
+        <li><span class="dot">2</span><b>GPS</b><span>店舗の範囲内か判定</span></li>
+        <li><span class="dot">3</span><b>Wi-Fi IP</b><span>GPSが無理なら店のIPで判定</span></li>
+        <li><span class="dot">4</span><b>結果を記録</b><span>店内 / OUTSIDE / UNKNOWN</span></li>
+      </ol>
+
+      <div class="cols">
+        <div>
+          <h3 class="group-label">設計のポイント</h3>
+          <ul class="points">
+            <li><b>記録のみ・打刻は止めない</b>電波が悪くて打刻できず、スタッフが困らないようにしました。</li>
+            <li><b>座標は保存しない</b>位置情報は判定にだけ使い、DBには結果だけを残します。</li>
+            <li><b>営業日の区切り</b>深夜勤務でも日付が分かれないよう、営業日を基準にしました（基準 06:00 / 閉店+2時間 / 最大09:00）。</li>
+          </ul>
+        </div>
+        <div class="shots shots--2">
+          <figure><img src="img/app_staff_02_attendance.png" alt=""><figcaption>スタッフ 出勤</figcaption></figure>
+          <figure><img src="img/app_boss_02_attendance.png" alt=""><figcaption>オーナー 勤怠</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         PAGE 6 : お知らせ・日報
+         ===================================================== -->
+    <section id="p-notice" class="page detail" data-nav="project">
+      <div class="detail__head">
+        <p class="detail__no">04</p>
+        <h2 class="title title--sub">お知らせ・日報 <small>NOTICE / REPORT</small></h2>
+      </div>
+      <p class="lead">店舗内の連絡を紙やチャットに散らさず、アプリで確認できるようにしました。<br>誰が読んだか、誰が何を書いたかが後から分かります。</p>
+
+      <div class="cols">
+        <div>
+          <h3 class="group-label">お知らせ</h3>
+          <ul class="points">
+            <li><b>確認（既読）</b>スタッフが確認すると記録され、オーナーが誰が未確認かを把握できます。</li>
+            <li><b>変更履歴</b>修正の内容と日時が残ります。</li>
+            <li><b>権限の分離</b>確認状況のブロックはオーナーだけに表示します。</li>
+          </ul>
+          <h3 class="group-label" style="margin-top:2.2rem">日報掲示板</h3>
+          <ul class="points">
+            <li><b>コメント</b>日報ごとにやり取りでき、引き継ぎがスムーズになります。</li>
+            <li><b>履歴と権限</b>編集履歴を残し、書いた本人とオーナーだけが修正できます。</li>
+          </ul>
+        </div>
+        <div class="shots shots--2">
+          <figure><img src="img/app_boss_notice.png" alt=""><figcaption>お知らせ（オーナー画面）</figcaption></figure>
+          <figure><img src="img/app_boss_report_detail_edited.png" alt=""><figcaption>日報（修正前の内容とコメント）</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         PAGE : トラブルシューティング
+         ===================================================== -->
+    <section id="p-trouble" class="page detail" data-nav="project">
+      <div class="detail__head">
+        <p class="detail__no">05</p>
+        <h2 class="title title--sub">トラブルシューティング <small>TROUBLESHOOTING</small></h2>
+      </div>
+      <p class="lead">開発中に見つけた問題のうち、出退勤で直した2つです。どちらも「画面だけでなく、サーバーとDBでも守る」ことが共通点でした。</p>
+
+      <h3 class="group-label group-label--gap">操作順のロック</h3>
+      <dl class="pdsr">
+        <div><dt>問題</dt><dd>テスト中に、出勤前に「退勤」が押せることや、休憩を始めていないのに「休憩終了」が押せることに気づきました。最初はボタンの順序を制限しておらず、記録が崩れる状態でした。</dd></div>
+        <div><dt>判断</dt><dd>画面でボタンを隠すだけでは、画面を通さない送信で破られてしまいます。そのため、サーバー側でも順序を検査することにしました。休憩は必要な人だけが使う任意の操作にし、休憩なしでも退勤できるようにしました。</dd></div>
+        <div><dt>解決</dt><dd>押せるボタンを状態ごとに1つずつ進める形にしました。出勤前は「出勤」だけ、出勤後は「休憩開始」と「退勤」、休憩を始めたら「休憩終了」を押すまで退勤は押せません。</dd></div>
+        <div><dt>結果</dt><dd>画面・サーバー・DB（1人1日1件の制約）の三重で防ぐ構造にしました。</dd></div>
+      </dl>
+      <div class="shots">
+        <figure><img src="img/lock_s1_before.png" alt=""><figcaption>出勤前</figcaption></figure>
+        <figure><img src="img/lock_s2_working.png" alt=""><figcaption>勤務中</figcaption></figure>
+        <figure><img src="img/lock_s3_break.png" alt=""><figcaption>休憩中（退勤は押せない）</figcaption></figure>
+        <figure><img src="img/lock_s4_after.png" alt=""><figcaption>退勤後</figcaption></figure>
+      </div>
+
+      <h3 class="group-label group-label--gap">出勤の連打で6件重複</h3>
+      <dl class="pdsr">
+        <div><dt>問題</dt><dd>出勤ボタンを連打すると、同じ日の出勤記録が一度に6件できてしまいました。</dd></div>
+        <div><dt>原因</dt><dd>サーバーの重複チェックは「すでにある記録」しか見ていませんでした。そのため、ほぼ同時に届いた複数のリクエストが、それぞれ新しい記録を作れてしまいました。</dd></div>
+        <div><dt>対応</dt><dd>DBに <code>UNIQUE(店舗, スタッフ, 勤務日)</code> を追加し、DB自身が1人1日1件を守るようにしました。画面側も、処理中はボタンを止めて二重送信を防ぎます。</dd></div>
+      </dl>
+      <p class="learn">画面だけでなく、サーバーとDBで二重に守ることを学びました。</p>
+    </section>
+
+    <!-- =====================================================
+         PAGE 8 : 感想
+         ===================================================== -->
+    <section id="p-reflection" class="page detail" data-nav="project">
+      <div class="detail__head">
+        <p class="detail__no">06</p>
+        <h2 class="title title--sub">感想 <small>REFLECTION</small></h2>
+      </div>
+      <div class="diary">
+        <p>初めてのチーム開発だったので、振り返ると、見落としていたことがたくさんありました。</p>
+        <p>いちばん大きかったのは、設計が足りなかったことです。実装に入る前の設計が浅く、出勤ボタンの連打で記録が6件できるといった問題に、作ってから気づきました。画面設計も、リファレンスを十分に集めないまま、最初に手で描いた簡単な案を最後まで使い続けてしまいました。</p>
+        <p>テストも足りませんでした。店舗ごとにデータを分ける作りにしたのに、確認したのは1店舗だけでした。GPSによる出勤の判定も、店の外では試せていません。位置情報についてはもう一つあります。スマホの位置情報はHTTPSでしか動かないので、HTTPSでの公開が次の課題になりました。</p>
+        <p>作りの面でも、データベースは外部のものではなくH2のファイルを使いました。画面はフレームワークなしのJavaScriptで書いたので、仕組みを一から理解できた一方、部品の再利用や状態の管理は自分で用意する必要がありました。材料の項目も、実際の居酒屋にはもっとたくさんあるはずですが、細かく分けきれませんでした。</p>
+        <p>次にやり直すなら、実装の前に、画面だけでなく画面とサーバーがやり取りする内容まで設計します。リファレンスを集めてから画面設計に入り、外部のデータベースを使って、HTTPSで公開できる構成にしたいです。</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    <span>© ソテミン</span>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
